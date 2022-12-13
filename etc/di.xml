@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category    Scandiweb
+ * @package     MenuOrganizer
+ * @author      Denys Chebolda <info@scandiweb.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="ScandiPWA\MenuOrganizer\Block\Renderer\Action" type="Scandiweb\MenuOrganizer\Block\Rewrite\Renderer\Action" />
+</config>
